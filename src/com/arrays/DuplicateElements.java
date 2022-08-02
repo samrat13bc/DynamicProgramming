@@ -43,7 +43,7 @@ public class DuplicateElements {
 	}
 	
 	public static void main(String[] args) {
-		int arr[] = {12, 3, 4, 5, 6, 7, 12, 3, 9};
+		int arr[] = {2,3,1,2,3};
 		int n = arr.length;
 		findDuplicate(arr, n);
 	}
